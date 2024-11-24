@@ -2,15 +2,11 @@
 
 import { motion } from 'framer-motion';
 import LinkedinIcon from '@/assets/icons/linkedin.svg';
-import GithubIcon from '@/assets/icons/github.svg';
-import DribbbleIcon from '@/assets/icons/dribbble.svg';
 import Link from 'next/link';
-import { usePathname } from 'next/navigation';
 import { ANIMATION_DURATION } from '@/lib/constants';
 import { cn } from '@/lib/utils';
 
 export default function Socials({ className }: { className?: string }) {
-    const pathname = usePathname();
 
     const iconVariants = {
         hidden: { opacity: 0, scale: 0.3 },
@@ -24,10 +20,6 @@ export default function Socials({ className }: { className?: string }) {
             },
         }),
     };
-
-    const isBlogPage = pathname === '/blog';
-    const primaryLink = isBlogPage ? '/' : '/blog';
-    const primaryText = isBlogPage ? 'Portfolio' : 'Blog';
 
     return (
         <motion.div
