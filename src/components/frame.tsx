@@ -35,7 +35,7 @@ export default function Frame() {
     transition={{ duration: ANIMATION_DURATION.MEDIUM, ease: 'easeInOut' }}
     className="2xl:mt-5 fixed bottom-5 sm:bottom-10 left-5 sm:left-10 text-theme-secondary text-lg font-semibold  "
    >
-    Photographer & Biochemist
+    Photographer & Microbiologist
    </motion.p>
 
    <motion.div
