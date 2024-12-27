@@ -96,7 +96,7 @@ export const WORK_SUBSECTIONS = WORKS_ITEMS.length;
 
 export const experiences = [
  {
-  date: 'Nov 2024',
+  date: 'Dec 2024',
   title: 'Miala Beauty Store',
   role: 'Social media manager',
  },
