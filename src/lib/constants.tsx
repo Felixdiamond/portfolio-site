@@ -87,8 +87,7 @@ export const WORKS_ITEMS = [
   subject: 'Envagelism and Photography',
   description:
    "These photos were captured during my church's evangelism outreach in the slums, showcasing the efforts and impact of our mission in reaching the community.",
-  link:
-   'https://www.instagram.com/p/DChXFihoubm',
+  link: 'https://www.instagram.com/p/DChXFihoubm',
   techStack: ['envagelism', 'outreach', 'mobilephotography'],
  },
 ];
@@ -96,7 +95,14 @@ export const WORKS_ITEMS = [
 export const WORK_SUBSECTIONS = WORKS_ITEMS.length;
 
 export const experiences = [
- { date: 'Feb 2024', title: 'Amuwo Odofin Baptist Church', role: 'Social media manager' },
- { date: 'Jun 2023', title: 'Blunce Medical Diagnostics Lab', role: 'Lab Assistant Intern' },
- { date: 'May 2023', title: 'Clearview Hospital', role: 'Lab Assistant' },
+ {
+  date: 'Nov 2024',
+  title: 'Miala Beauty Store',
+  role: 'Social media manager',
+ },
+ {
+  date: 'Feb 2024',
+  title: 'Amuwo Odofin Baptist Church',
+  role: 'Social media manager',
+ },
 ];
